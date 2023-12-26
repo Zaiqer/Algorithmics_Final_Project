@@ -78,7 +78,7 @@
                     <div class="account-bottom-title">
                         <a href="./index.html">Home</a>
                         <i class="fa-solid fa-chevron-right" style="color: hsla(0,0%,100%,.8); font-size: 10px;"></i>
-                        <p class="d-inline" style="text-transform: capitalize; color: #fff;">Shop</p>
+                        <p class="d-inline" style="text-transform: capitalize; color: #fff;">Account</p>
                     </div>
                 </div>
             </div>
@@ -94,17 +94,20 @@
                                     <h2>Login</h2>
                                 </div>
                                 <form method="post" class="login-form p-3">
-                                    <div class="username">
+                                    <div class="username my-3">
                                         <label style="font-size: 14px; text-transform: initial;" class="usernameLabel" for="username">Username or email address
                                             <i class="fa-solid fa-asterisk" style="color: #ff0000;"></i>
                                         </label><br>
-                                        <input type="text" class="input-text" name="username" id="username">
+                                        <input style="width: 100%; font-family: initial; text-transform: initial;" type="text" class="input-text" name="username" id="username" required>
                                     </div>
-                                    <div class="password">
+                                    <div class="password my-3">
                                         <label style="font-size: 14px; text-transform: initial;" for="password">Password
                                             <span class="required"><i class="fa-solid fa-asterisk" style="color: #ff0000;"></i></span>
-                                        </label>
-                                        <input type="password" class="input-text" name="password" id="password">
+                                        </label><br>
+                                        <input style="width: 100%;" type="password" class="input-text" name="password" id="password" required>
+                                    </div>
+                                    <div class="login-button">
+                                        <button style="width: 100%;" type="submit" class="btn btn-dark">Login</button>
                                     </div>
                                 </form>
                             </div>
@@ -114,6 +117,7 @@
             </div>
         </section>
     </main>
+
     <footer>
         <section class="contact py-5">
             <div class="container">
