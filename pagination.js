@@ -28,11 +28,9 @@ $(document).ready(function () {
         updatePaginationButtons();
     }
 
-    // Initialize the first page
     showPage(currentPage);
     updatePaginationButtons();
 
-    // Example: Add event listeners to your pagination controls
     const nextPageBtn = $('#nextPageBtn');
     const prevPageBtn = $('#prevPageBtn');
 

@@ -15,7 +15,6 @@ $(document).ready(function () {
     });
 
     $('#sortDescBtn').on('click', function () {
-        // Sort products in descending order by price
         const sortedProducts = products.sort((a, b) => {
             const priceA = parseFloat($(a).data('price'));
             const priceB = parseFloat($(b).data('price'));
